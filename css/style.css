@@ -22,6 +22,46 @@
   font-style: normal;
 }
 
+.features {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.features-title {
+  text-transform: uppercase;
+  font-family: 'Bebas';
+  font-size: 40px;
+  color: #1a1a1a;
+  letter-spacing: 2px;
+  margin-bottom: 70px;
+}
+
+.features-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.features-block__image {
+  width: 90px;
+  margin: 20px 0;
+}
+
+.features-block__item {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+.features-block__text {
+  font-family: 'Avenir Next Cyr Medium';
+  line-height: 30px;
+}
+
 body {
   margin: 0;
   font-size: 20px;
