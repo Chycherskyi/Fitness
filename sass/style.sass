@@ -1,1 +1,66 @@
-
+@import 'fonts'
+body
+    margin: 0
+    font-size: 20px
+    font-family: 'Avenir Next Cyr Regular'
+img
+    max-width: 100%
+.button
+    text-transform: uppercase
+    text-shadow: 0 2px 21px rgba(239, 255, 252, 0.46)
+    background-color: #23dcb8
+    background-image: linear-gradient(-241deg, #48d7bb 0%, #0eb595 100%)
+    padding: 30px 58px
+    border: none
+    border-radius: 100px
+    color: #fff
+    font-size: 18px
+    box-shadow: 0 12px 43px rgba(35, 220, 184, 0.31)
+    display: block
+    cursor: pointer
+.header
+    background: #000 url('../img/header-bg1.png') no-repeat bottom / cover
+    color: #fff
+    padding-top: 36px
+    padding-bottom: 239px
+    &-title
+        max-width: 641px
+        font-size: 106px
+        line-height: 110px
+        font-family: 'Bebas'
+        margin-bottom: 30px
+    &-subtitle
+        display: block
+        font-size: 27px
+        margin-bottom: 84px
+.navbar
+    margin-bottom: 229px
+    &-phone
+        text-decoration: none
+        color: #fff
+    &-logo
+        display: flex
+        align-items: center
+        &__name
+            margin-right: 39px
+            font-size: 26px
+        &__description
+            font-size: 16px
+            padding-left: 39px
+            border-left: 1px solid rgba(#fff, 0.2)
+    &-info
+        display: flex
+        align-items: center
+        justify-content: space-around
+    &-social
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 0
+        margin: 0
+        list-style: none
+        &__item
+            width: 25px
+            padding: 0
+            margin-right: 16px
+        &__link
