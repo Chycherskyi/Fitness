@@ -112,6 +112,65 @@
   cursor: pointer;
 }
 
+.input {
+  margin-bottom: 30px;
+  font-family: 'Avenir Next Cyr Medium';
+  background-color: #e8e8e8;
+  border: none;
+  padding: 20px 150px 20px 20px;
+  border-radius: 10px;
+}
+
+.contacts-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts-block__title {
+  text-transform: uppercase;
+  font-family: 'Bebas';
+  font-size: 40px;
+  color: #1a1a1a;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.contacts-block__text {
+  font-family: 'Avenir Next Cyr Medium';
+  margin-bottom: 50px;
+}
+
+.contacts-block__name {
+  margin-right: 15px;
+}
+
+.contacts-block__policy {
+  font-family: 'Avenir Next Cyr Medium';
+  font-size: 14px;
+  color: #878787;
+  margin-bottom: 30px;
+}
+
+.contacts-block__policy a {
+  color: #878787;
+}
+
+.contacts-block__button {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
 body {
   margin: 0;
   font-size: 20px;
