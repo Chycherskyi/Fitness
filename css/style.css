@@ -202,7 +202,7 @@
 
 .footer-block__link {
   display: inline-block;
-  width: 70px;
+  width: 75px;
   line-height: 20px;
   padding: 20px;
   margin-right: 16px;
@@ -212,7 +212,7 @@
 
 .footer-block__copy {
   position: absolute;
-  bottom: -530px;
+  top: 750px;
   font-family: 'Avenir Next Cyr Medium';
   font-size: 14px;
   color: #878787;
@@ -324,5 +324,51 @@ img {
   width: 25px;
   padding: 0;
   margin-right: 16px;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    text-align: center;
+  }
+  .navbar-logo {
+    display: inline-block;
+  }
+  .navbar-logo__name {
+    font-size: 20px;
+    margin-right: 0;
+  }
+  .navbar-logo__description {
+    font-size: 15px;
+    padding-left: 0px;
+    border-left: none;
+  }
+  .navbar-info {
+    display: inline-block;
+  }
+  .navbar-phone {
+    font-size: 20px;
+  }
+  .navbar-social__item:last-child {
+    margin-right: 0;
+  }
+  .header-title {
+    font-size: 50px;
+    max-width: 300px;
+    line-height: 60px;
+  }
+  .header-subtitle {
+    font-size: 20px;
+  }
+  .button {
+    padding: 20px 40px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    background: #000 url("../img/header-bg1.png") no-repeat bottom/cover;
+    background-position: left;
+  }
 }
 /*# sourceMappingURL=style.css.map */

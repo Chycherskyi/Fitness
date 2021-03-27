@@ -67,3 +67,37 @@ img
             width: 25px
             padding: 0
             margin-right: 16px
+@media (max-width: 991px)
+    .navbar
+        text-align: center
+        &-logo
+            display: inline-block
+            &__name
+                font-size: 20px
+                margin-right: 0
+            &__description
+                font-size: 15px
+                padding-left: 0px
+                border-left: none
+        &-info
+            display: inline-block
+        &-phone
+            font-size: 20px
+        &-social
+            &__item
+                &:last-child
+                    margin-right: 0
+    .header
+        &-title
+            font-size: 50px
+            max-width: 300px
+            line-height: 60px
+        &-subtitle
+            font-size: 20px
+    .button
+        padding: 20px 40px
+        font-size: 15px
+@media (max-width: 768px)
+    .header
+        background: #000 url('../img/header-bg1.png') no-repeat bottom / cover
+        background-position: left
