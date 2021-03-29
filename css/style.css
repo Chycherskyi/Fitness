@@ -139,6 +139,15 @@
   }
 }
 
+@media (max-width: 668px) {
+  .about-block {
+    text-align: center;
+  }
+  .about-block__button {
+    margin: 30px auto;
+  }
+}
+
 .input {
   margin-bottom: 30px;
   font-family: 'Avenir Next Cyr Medium';
@@ -196,6 +205,15 @@
 .contacts-block__button {
   max-width: 100%;
   margin-bottom: 20px;
+}
+
+@media (max-width: 668px) {
+  .contacts-block {
+    text-align: center;
+  }
+  .input {
+    margin: 10px 0;
+  }
 }
 
 .footer {
