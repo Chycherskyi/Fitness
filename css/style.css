@@ -133,6 +133,12 @@
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .about-block img {
+    display: none;
+  }
+}
+
 .input {
   margin-bottom: 30px;
   font-family: 'Avenir Next Cyr Medium';
