@@ -263,6 +263,22 @@
   color: #878787;
 }
 
+@media (max-width: 380px) {
+  .footer-block {
+    text-align: center;
+  }
+  .footer-block__link {
+    width: 65px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer-block__link {
+    width: 55px;
+    padding: 15px;
+  }
+}
+
 body {
   margin: 0;
   font-size: 20px;
